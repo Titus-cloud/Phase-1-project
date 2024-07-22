@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <title>Funcy Cafe App</title>
+</head>
+<body>
+  <section>
+    <h1>Welcome to Funcy Coffee Cafe</h1>
+    <p>We meet your Winter needs</p>
+  </section>
+
+  <div class="container">
+    <ul id="menu-items">
+      <li><b>MENU</b></li>
+    </ul>
+
+    <form id="order-form">
+      <input type="text" id="order-item" placeholder="Enter Item Name" required>
+      <input type="number" id="order-price" placeholder="Enter Item Price" step="0.01" required>
+      <button type="submit">Add to Cart</button>
+    </form>
+
+    <div>
+      <h2 id="cart-heading">CART</h2>
+      <ul id="cart-items"></ul>
+    </div>
+    <p>Total Price: <span id="total-price">0.00</span></p>
+
+    <div id="create-item-container" style="display: none;">
+      <div class="modal">
+        <h2>Create New Item</h2>
+        <label for="new-item-name">Item Name:</label>
+        <input type="text" id="new-item-name" required>
+        <br>
+        <label for="new-item-price">Item Price:</label>
+        <input type="number" id="new-item-price" step="0.01" required>
+        <br>
+        <button id="save-new-item">Save</button>
+        <button id="cancel-new-item">Cancel</button>
+      </div>
+    </div>
+
+    <button id="create-item">Create Item</button>
+  </div>
+
+  <p>Our customer: Our priority</p>
+
+  <script src="./index.js"></script>
+</body>
+</html>

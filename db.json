@@ -1,0 +1,109 @@
+{
+  "menuItems": [
+    {
+      "id": "2",
+      "name": "Espresso and bun",
+      "price": 340,
+      "type": "coffee and bun",
+      "capacity": 60,
+      "coffee_sold": 21
+    },
+    {
+      "id": "3",
+      "name": "Flat White",
+      "price": 280,
+      "type": "coffee",
+      "capacity": 51,
+      "coffee_sold": 27
+    },
+    {
+      "id": "4",
+      "name": "Flat White and bun",
+      "price": 370,
+      "type": "coffee",
+      "capacity": 80,
+      "coffee_sold": 17
+    },
+    {
+      "id": "4",
+      "name": "Cappuccino",
+      "price": 300,
+      "type": "coffee",
+      "capacity": 30,
+      "coffee_sold": 7
+    },
+    {
+      "id": "5",
+      "name": "Cappuccino and bun",
+      "price": 390,
+      "capacity": 45,
+      "coffee_sold": 22
+    },
+    {
+      "id": "6",
+      "name": "Mocha",
+      "price": 350,
+      "type": "coffee",
+      "capacity": 30,
+      "coffee_sold": 5
+    },
+    {
+      "id": "7",
+      "name": "Mocha and a bun",
+      "price": 450,
+      "type": "coffee and bun",
+      "capacity": 31,
+      "coffee_sold": 27
+    },
+    {
+      "id": "8",
+      "name": "Americano",
+      "price": 370,
+      "type": "coffee",
+      "capacity": 20,
+      "coffee_sold": 7
+    },
+    {
+      "id": "9",
+      "name": "Americano and a bun",
+      "price": 490,
+      "type": "coffee",
+      "capacity": 70,
+      "coffee_sold": 47
+    },
+    {
+      "0": {
+        "name": "Espresso",
+        "price": 150,
+        "id": "_ban1mh2v8",
+        "quantity": 1
+      },
+      "id": "81ad"
+    },
+    {
+      "id": "_00bwr77ce",
+      "name": "mayai",
+      "price": 200
+    },
+    {
+      "id": "_5amg21p6k",
+      "name": "ando",
+      "price": 100
+    },
+    {
+      "id": "_n9fu8yh1c",
+      "name": "mayai",
+      "price": 244
+    },
+    {
+      "id": "_ogm97lwaw",
+      "name": "sembe",
+      "price": 300
+    },
+    {
+      "id": "_abrib20sf",
+      "name": "meza",
+      "price": 200
+    }
+  ]
+}
